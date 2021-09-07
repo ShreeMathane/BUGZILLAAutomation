@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.bugzilla.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.bugzilla.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="doLoginTest"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- com.qa.bugzilla.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

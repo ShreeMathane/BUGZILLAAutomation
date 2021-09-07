@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-25T13:37:18Z" name="Suite" finished-at="2021-08-25T13:38:15Z" duration-ms="57131">
+    <groups>
+    </groups>
+    <test started-at="2021-08-25T13:37:18Z" name="Test" finished-at="2021-08-25T13:38:15Z" duration-ms="57131">
+      <class name="com.qa.bugzilla.tests.LoginPageTest">
+        <test-method is-config="true" signature="startup(java.lang.String)[pri:0, instance:com.qa.bugzilla.tests.LoginPageTest@791f145a]" started-at="2021-08-25T19:07:18Z" name="startup" finished-at="2021-08-25T19:07:22Z" duration-ms="4581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="doLoginTest()[pri:2, instance:com.qa.bugzilla.tests.LoginPageTest@791f145a]" started-at="2021-08-25T19:07:22Z" name="doLoginTest" finished-at="2021-08-25T19:08:14Z" duration-ms="51898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.bugzilla.tests.LoginPageTest@791f145a]" started-at="2021-08-25T19:08:14Z" name="tearDown" finished-at="2021-08-25T19:08:15Z" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.bugzilla.tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
